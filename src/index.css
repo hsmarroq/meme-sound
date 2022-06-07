@@ -68,8 +68,9 @@ main {
   width: 20ch;
   height: 5ch;
   border-radius: 10px;
-  background-color: #8be0d8;
+  background-color: #4a3f50;
   font-family: 'Dosis', sans-serif;
+  color: #fff;
 }
 
 .copyright {
