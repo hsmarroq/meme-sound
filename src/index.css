@@ -1,13 +1,30 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Barlow:wght@100&family=Comfortaa&family=Dosis:wght@200;500&family=Meow+Script&family=Oxygen&family=Pacifico&family=Quicksand:wght@300;400&family=Water+Brush&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+
+body {
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#fda583, #d38deb);
+  display: flex;
+  flex-direction: column;
+}
+/* ///////////////////////// */
+/* header style */
+/* ///////////////////////// */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
