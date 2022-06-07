@@ -21,10 +21,60 @@ body {
   flex-direction: column;
 }
 /* ///////////////////////// */
-/* header style */
+/* drum machine box style */
 /* ///////////////////////// */
 main {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.machine-container {
+  height: 50vh;
+  width: 50vw;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h1-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  top: 0vh;
+  color: #333;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  gap: 40px;
+}
+
+.btn {
+  border-style: none;
+  width: 20ch;
+  height: 5ch;
+  border-radius: 10px;
+  background-color: #8be0d8;
+  font-family: 'Dosis', sans-serif;
+}
+
+.copyright {
+  height: 50px;
+  font-family: 'Oxygen', sans-serif;
+  color: #333;
+  font-size: 0.8em;
 }
