@@ -65,7 +65,7 @@ main {
 
 .btn {
   border-style: none;
-  width: 20ch;
+  width: 15ch;
   height: 5ch;
   border-radius: 10px;
   background-color: #4a3f50;
@@ -74,6 +74,10 @@ main {
 }
 
 .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   height: 50px;
   font-family: 'Oxygen', sans-serif;
   color: #333;

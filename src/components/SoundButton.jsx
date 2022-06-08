@@ -6,7 +6,7 @@ import { Howl } from 'howler';
 const audioClips = [
   { sound: Bruh, label: 'Bruh' },
   { sound: Boi, label: 'Boi' },
-  { sound: John, label: 'John' },
+  { sound: John, label: 'John Cena' },
 ];
 
 const SoundPlay = (src) => {
